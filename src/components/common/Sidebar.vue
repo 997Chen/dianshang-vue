@@ -73,7 +73,12 @@ export default {
                     {
                         index: 'Pinpai',
                         title: '品牌管理'
-                    }]
+                    },
+                    {
+                        index: 'Shuxing',
+                        title: '属性管理'
+                    }
+                ]
               },
                 {
                     icon: 'el-icon-milk-tea',

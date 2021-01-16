@@ -30,7 +30,13 @@ export default new Router({
           path: '/Pinpai',
           component: () => import(/* webpackChunkName: "dashboard" */ '../components/shop/Pinpai.vue'),
           meta: { title: '品牌管理' }
-        }
+        },
+        {
+          path: '/Shuxing',
+          component: () => import(/* webpackChunkName: "dashboard" */ '../components/shop/Shuxing.vue'),
+          meta: { title: '属性管理' }
+        },
+
         ]}
   ]
 })
